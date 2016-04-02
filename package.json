@@ -1,0 +1,23 @@
+{
+  "name": "stack",
+  "version": "1.0.0",
+  "description": "Node.js技术栈推荐",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "npm i ../tpl_md && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodeonly/stack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nodeonly/stack/issues"
+  },
+  "homepage": "https://github.com/nodeonly/stack#readme",
+  "devDependencies": {
+    "tpl_md": "^1.0.0"
+  }
+}

@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    <title>i5ting</title>
+    <link type="text/css" rel="stylesheet" href="github/assets/css/github-markdown.css">
+    <link type="text/css" rel="stylesheet" href="github/assets/css/pilcrow.css">
+    <link type="text/css" rel="stylesheet" href="github/assets/css/hljs-github.min.css"/>
+  </head>
+  <body>
+    <article class="markdown-body">
+      <h1 id="node-js-web-2015-5-">Node.js最新Web技术栈（2015年5月）</h1>
+<p>nodejs是比较简单的，只有你有前端js基础，那就按照我的办法来吧！一周足矣</p>
+<h2 id="-">推荐技术栈</h2>
+<ul>
+<li>express 4.x （express最新版本，初学者先别去碰koa）</li>
+<li>mongoose（mongodb）</li>
+<li>bluebird（Promise/A+实现）</li>
+<li>jade（视图层模板）</li>
+<li>mocha（测试）</li>
+<li>node-inspector(调试)</li>
+</ul>
+<p><a href="https://github.com/i5ting/express-starter">https://github.com/i5ting/express-starter</a></p>
+<h2 id="-http-ajax-req-">了解http协议，尤其是表单和ajax传值，在req里如何接收</h2>
+<ul>
+<li>绝对地址和相对地址</li>
+<li>querystring</li>
+<li>url 和 uri</li>
+<li>http status code</li>
+<li>http verbs</li>
+<li>req取参数的3种方法</li>
+<li>3种不同类型的post</li>
+<li>命令行玩法</li>
+<li>supertest用法</li>
+<li>what is rest?</li>
+</ul>
+<p><a href="http://i5ting.github.io/node-http/">http://i5ting.github.io/node-http/</a></p>
+<h2 id="-db-mongoose-">了解db相关操作，先以mongoose为主</h2>
+<ul>
+<li>crud（增删改查）</li>
+<li>了解分页</li>
+<li>了解关系（1对1，1对多）在mongoose里如何实现</li>
+<li>了解statics方法和methods的区别</li>
+<li>了解pre和post的差别</li>
+<li>了解mongoose的插件机制</li>
+<li>了解mvc里m的作用，以及什么样的代码该放到模型里</li>
+<li>了解索引优化</li>
+<li>了解mongodb的部署</li>
+</ul>
+<h2 id="-promise-a-">了解Promise/A+规范，合理规避回调陷阱</h2>
+<ul>
+<li>了解的node的异步</li>
+<li>了解异步的恶心</li>
+<li>了解异步基本场景，比如waterfall这样的路程使用async如何处理</li>
+<li>了解q和bluebird用法（如果有angularjs经验，推荐q，其他只推荐bluebird）</li>
+<li>了解bluebird的promisifyAll用法</li>
+<li>了解如何重构流程，以及代码的可读性</li>
+</ul>
+<h2 id="-tdd-bdd-">使用tdd/bdd测试，最小化问题</h2>
+<p>测试的好处，这里就不说了，但是有一点是要说的，node的调试比较难，往往不如写测试来的快，推荐学习一下</p>
+<ul>
+<li>理解最小问题思想，培养程序员该有的强大的内心</li>
+<li>mocha的基本用法</li>
+<li>理解assert/should/expect等断言的用法</li>
+<li>理解测试生命周期</li>
+<li>理解done回调</li>
+<li>理解如何模拟数据</li>
+<li>理解http下的supertest测试</li>
+<li>理解测试覆盖率</li>
+<li>理解基于gulp自动化测试方法</li>
+</ul>
+<p>如果有兴趣，可以去了解更多bdd/tdd内容，甚至是cucumber.js</p>
+<h2 id="-">你无论如何都要会的：调试</h2>
+<p>调试有3种方法</p>
+<ul>
+<li>node debug(太挫了，如果不是c，了解adb之类的人不推荐用)</li>
+<li>node-inspector(推荐4※)</li>
+<li>tdd/bdd(推荐5※)</li>
+</ul>
+<p>更多内容和视频见</p>
+<p><a href="https://cnodejs.org/topic/5463f6e872f405c829029f7e">https://cnodejs.org/topic/5463f6e872f405c829029f7e</a></p>
+<p>欢迎关注我的公众号【node全栈】</p>
+<p><img src="//dn-cnode.qbox.me/FtALxsauUkYDGdzcuA5y6BaIdUMC" alt="node全栈.png"></p>
+
+    </article>
+  </body>
+</html>
