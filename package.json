@@ -4,8 +4,8 @@
   "description": "Node.js技术栈推荐",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "npm i ../tpl_md && node index.js"
+    "start": "node index.js && mv README.html index.html",
+    "test": "npm i ../tpl_md && node index.js && mv README.html index.html"
   },
   "repository": {
     "type": "git",
